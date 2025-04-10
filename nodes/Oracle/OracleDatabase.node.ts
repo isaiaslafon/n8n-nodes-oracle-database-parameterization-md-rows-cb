@@ -12,12 +12,12 @@ import { OracleConnection } from "./core/connection";
 
 export class OracleDatabase implements INodeType {
   description: INodeTypeDescription = {
-    displayName: "Oracle Database with Parameterization ",
-    name: "Oracle Database with Parameterization",
+    displayName: "Oracle Database with Parameterization and Checkboxes ",
+    name: "Oracle Database with Parameterization and Checkboxes",
     icon: "file:oracle.svg",
     group: ["input"],
     version: 1,
-    description: "Upsert, get, add and update data in Oracle database",
+    description: "Upsert, get, add and update data in Oracle database and select Metadata, Rows or Both.",
     defaults: {
       name: "Oracle Database",
     },
